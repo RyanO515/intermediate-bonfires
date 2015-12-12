@@ -6,7 +6,7 @@ function steamroller(arr) {
     if (!Array.isArray(arg)) {
       flatArr.push(arg)
     } else {
-      for (var a in arg) {             // Steamroll!
+      for (var a in arg) {             // Steamroll
         flatten(arg[a]);               // Recursion
       }
     }
